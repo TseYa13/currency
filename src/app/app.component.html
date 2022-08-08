@@ -1,0 +1,27 @@
+
+<div class="hp">
+  <div class="pl">
+    <header class="head">
+      <h1 class="txt">you give</h1>
+      <nav class="nav">
+        <div><button *ngIf="!isCollapsed" (click)="toggleCollapse()" class="tx1">{{products[2].base_ccy}} </button><button *ngIf="isCollapsed" (click)="toggleCollapse()" class="tx11">{{products[2].base_ccy}}</button></div>
+        <div><button *ngIf="!isCollapsed1" (click)="toggleCollapse1()" class="tx2">{{products[1].ccy}}</button><button *ngIf="isCollapsed1" (click)="toggleCollapse1()" class="tx22">{{products[1].ccy}}</button></div>
+      <div><button *ngIf="!isCollapsed2" (click)="toggleCollapse2()" class="tx3">{{products[2].ccy}}</button><button *ngIf="isCollapsed2" (click)="toggleCollapse2()" class="tx33">{{products[2].ccy}}</button></div></nav>
+    </header>
+    <div class="foot">
+      <input  value= 355  type="number"  id="proc">
+      <h1  class="text">{{products[0].id}}</h1>
+    </div>
+  </div>
+  <div class="pl">
+    <header class="head">
+      <h1  id="text" class="txt">you receive</h1>
+      <nav class="nav"><button class="tx1">UAH</button><button id="but"  class="tx2">USD</button><button class="tx3">EUR</button></nav>
+    </header>
+    <div class="foot">
+      <input   type="number" value="" id="compl">
+      <h1 class="text">{{products[1].buy}}</h1>
+    </div>
+  </div>
+</div>
+  

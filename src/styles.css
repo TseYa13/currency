@@ -1,0 +1,291 @@
+
+body{
+    background-color: #000000;
+font-family: 'Manrope', sans-serif;
+padding-right: 10%;
+margin-right: 10%;
+}
+.hp{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+isolation: isolate;
+position: absolute;
+width: 100%;
+height: 299px;
+top: 138px;
+gap: 10px;
+
+}
+.pl{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+max-width: 642px;
+height: 299px;
+
+background-color: #252525;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+z-index: 0;
+}
+.head{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 40px;
+gap: 24px;
+
+min-width: 642px;
+height: 79px;
+
+border-bottom: 1px solid #000000;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.txt{
+    width: 352px;
+height: 18px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+letter-spacing: -0.02em;
+text-transform: lowercase;
+
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.nav{
+    text-align: center;
+    display: flex;
+flex-direction: row;
+align-items: center;
+gap: 6px;
+
+min-width: 300px;
+height: 31px;
+margin-right: 50px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.tx1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 14px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   
+}
+.tx2{
+    
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 14px;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.tx3{
+    
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 14px;
+
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.foot{
+    display: flex;
+flex-direction: row;
+align-items: baseline;
+padding: 24px 40px 40px;
+gap: 18px;
+
+width: 642px;
+height: 120px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+input{
+    outline: none;
+    text-decoration: none;
+    background-color: unset;
+    margin-right: 80px;
+    margin-top: 80px;
+max-width: 250px;
+height: 56px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 100%;
+/* identical to box height, or 56px */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: rgba(254, 254, 254, 0.2);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+input:hover{
+text-decoration: none;
+}
+.text{
+    width: 65px;
+height: 32px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 100%;
+/* identical to box height, or 32px */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: rgba(254, 254, 254, 0.5);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.tx1:hover{
+    background-color: #FEFEFE;
+    color: #000000;
+    transition: all .4s linear;
+}
+.tx2:hover{
+    background-color: #FEFEFE;
+    color: #000000;
+    transition: all .4s linear;
+}
+.tx3:hover{
+    background-color: #FEFEFE;
+    color: #000000;
+    transition: all .4s linear;
+}
+.tx11{
+   
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 14px;
+background: #FFD978;
+border-radius: 4px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.tx22{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 14px;
+border-radius: 4px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    background: darkgreen;
+}
+.tx33{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 14px;
+    border-radius: 4px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+        background: rgb(7, 67, 177);
+}
